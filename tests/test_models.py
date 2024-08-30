@@ -194,7 +194,6 @@ class TestProductModel(unittest.TestCase):
         self.assertEqual(found.count(),count)
         for product in found:
             self.assertEqual(product.category, category)
-
         
 
         
